@@ -3,15 +3,15 @@
 ## Webpage to run Linux commands on the web-browser
  
  Download the project files in their respective folders as they appear in the repository to use it. 
- The driver page is 'homepage.html' under the folder named 'completed'.
+ The driver page is `homepage.html` under the folder named `completed`.
  
  ### How it works?
- 1. Homepage calls for 'login' or 'sign-up' depending upon what the user wants
- 2. Upon logging in, the Username and Password are verified by 'login.js' usder the folder named 'js' 
+ 1. Homepage calls for `login` or `sign-up` depending upon what the user wants
+ 2. Upon logging in, the Username and Password are verified by `login.js` under the folder named `js` 
       a. If they are invalid, three attempts are given to rectify the mistake after which the fields are locked
-      b. If the credentials are valid, the user is redirected to 'GotoTerminal.html' under the folder 'completed' which displays a message of successful login
- 3. Upon hitting the Go to Terminal button within 'GotoTerminal.html', the user is redirected to 'online.html' under the folder 'mainpage' 
- 4. This page does the entire work of taking the input commands from the user and printing the output in the adjacent 'frame' section.
+      b. If the credentials are valid, the user is redirected to `GotoTerminal.html` under the folder `completed` which displays a message of successful login
+ 3. Upon hitting the Go to Terminal button within `GotoTerminal.html`, the user is redirected to `online.html` under the folder 'mainpage' 
+ 4. This page does the entire work of taking the input commands from the user and printing the output in the adjacent `frame` section.
  
  **The text field can take both linux commands as well as 'Docker' commands as input**
  
