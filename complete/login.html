@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Linux for Web - Login</title>
+<script src="C:\Users\KIIT\Desktop\Linux Web\js\login.js"></script>
+  <link rel="stylesheet" href="https://python6701.s3.ap-south-1.amazonaws.com/Linux+Web/css/reset.css">
+
+    <link rel="stylesheet" href="https://python6701.s3.ap-south-1.amazonaws.com/Linux+Web/css/style.css" media="screen" type="text/css" />
+<style>
+.mrq {
+	background: linear-gradient(#000000, #E0C800, #000000);
+}
+.text {
+	margin: auto;
+	background: #000000 ;
+	position: relative;
+	top: -6px;
+}
+.text img {
+	margin: auto;
+	display: block;
+}
+.avatar {
+	width: 100%;
+	margin: auto;
+	width: 175px;
+	border-radius: 100px;
+	height: 175px;
+	background: #000000 ;
+	position: relative;
+	bottom: -15px;
+}
+.avatar img {
+	width: 180px;
+	height: 180px;
+	border-radius: 100px;
+	margin: auto;
+	border:3px solid #fff;
+	display: block;
+}
+</style>
+
+</head>
+
+<body>
+	
+<div class="mrq">
+<marquee height=100  direction="down" behavior="alternate"  >
+	<marquee behavior = "alternate"><font size = "5" face="lucida handwriting"><b>An Interactive Linux Experience</b></font></marquee></marquee>
+</div>
+<div class="text">
+<img src = "https://python6701.s3.ap-south-1.amazonaws.com/Linux+Web/Text.png" height=120 width=450>
+</div>
+  <div class="wrap">
+		<div class="avatar">
+      <img src="https://python6701.s3.ap-south-1.amazonaws.com/Linux+Web/icons.png" height = 200 width = 200>
+		</div>
+		<input type="text" placeholder="username" name ="username" id ="username" required>
+		<div class="bar">
+			<i></i>
+		</div>
+		<input type="password" placeholder="password" name="password"  id="password" required>
+		<a href="" class="forgot_link">forgot ?</a>
+		<button onclick="validate()">Sign in</button>
+	</div>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
