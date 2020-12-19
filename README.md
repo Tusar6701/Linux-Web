@@ -13,7 +13,7 @@
  3. Upon hitting the Go to Terminal button within `GotoTerminal.html`, the user is redirected to `online.html` under the folder 'mainpage' 
  4. This page does the entire work of taking the input commands from the user and printing the output in the adjacent `frame` section.
  
- **The text field can take both linux commands as well as 'Docker' commands as input**
+ *The text field can take both linux commands as well as 'Docker' commands as input*
  
  ## Technology used:
 
